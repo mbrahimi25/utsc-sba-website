@@ -3,9 +3,12 @@ import Navbar from "@/components/Navbar";
 import { Pattern as HomepageCarousel } from "@/components/examples/homepage_carousel"
 import Footer from "@/components/Footer";
 
+import { Analytics } from '@vercel/analytics/next';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
+      <Analytics />
 
       <Navbar />
 
