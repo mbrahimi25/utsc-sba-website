@@ -6,6 +6,7 @@
 
 @theme {
   --color-sba-red: #d11f44;
+  --color-sba-dark-red: #974646;
 
   --font-sans: var(--font-lato), sans-serif;
 }

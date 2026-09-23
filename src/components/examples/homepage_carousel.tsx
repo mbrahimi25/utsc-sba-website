@@ -1,8 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
-
-import { cn } from "cn" // Change to "@/lib/utils" if your project uses standard shadcn paths
+import { cn } from "@/lib/utils" // Change to "cn" if your project requires it
 import {
   Carousel,
   CarouselContent,
@@ -10,13 +9,12 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel"
 
-// Added a "title" property for each slide
 const CUSTOM_SLIDES = [
-  { id: 1, src: "/2025_networking/image1.jpg", alt: "Networking Event 1", title: "Welcome & Registration" },
-  { id: 2, src: "/2025_networking/image2.jpg", alt: "Networking Event 2", title: "Keynote Address" },
-  { id: 3, src: "/2025_networking/image3.jpg", alt: "Networking Event 3", title: "Panel Discussion" },
-  { id: 4, src: "/2025_networking/image4.jpg", alt: "Networking Event 4", title: "Networking Mixer" },
-  { id: 5, src: "/2025_networking/image5.jpg", alt: "Networking Event 5", title: "Closing Remarks" },
+  { id: 1, src: "/2025_networking/image1.jpg", alt: "Networking Event 1", title: "Caption 1" },
+  { id: 2, src: "/2025_networking/image2.jpg", alt: "Networking Event 2", title: "Caption 2" },
+  { id: 3, src: "/2025_networking/image3.jpg", alt: "Networking Event 3", title: "Caption 3" },
+  { id: 4, src: "/2025_networking/image4.jpg", alt: "Networking Event 4", title: "Caption 4" },
+  { id: 5, src: "/2025_networking/image5.jpg", alt: "Networking Event 5", title: "Caption 5" },
 ]
 
 export function Pattern() {
@@ -26,8 +24,9 @@ export function Pattern() {
 
   const onThumbClick = useCallback(
     (index: number) => {
-      if (!mainApi || !thumbApi) return
+      if (!mainApi) return
       mainApi.scrollTo(index)
+      thumbApi?.scrollTo(index)
     },
     [mainApi, thumbApi]
   )
@@ -71,7 +70,6 @@ export function Pattern() {
                       {slide.title}
                     </p>
                   </div>
-
                 </div>
               </CarouselItem>
             ))}
@@ -79,8 +77,8 @@ export function Pattern() {
         </Carousel>
 
         {/* Overlay Thumbnails Container */}
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-6 transition-opacity duration-300">
-          <div className="relative mx-auto w-full max-w-3xl">
+        <div className="absolute inset-x-0 bottom-0 z-20 pointer-events-none bg-gradient-to-t from-black/70 via-black/40 to-transparent p-6 transition-opacity duration-300">
+          <div className="relative mx-auto w-full max-w-3xl pointer-events-auto">
             <Carousel
               setApi={setThumbApi}
               opts={{
