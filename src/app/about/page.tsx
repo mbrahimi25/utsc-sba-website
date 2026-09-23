@@ -5,7 +5,6 @@ import ExecutiveCard from "@/components/ExecutiveCard";
 import Footer from "@/components/Footer";
 
 import type { Metadata } from 'next';
-import { NullType } from "maplibre-gl";
 
 export const metadata: Metadata = {
   title: 'About | UTSC SBA',
