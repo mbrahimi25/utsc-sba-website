@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function AboutCard() {
+export default function AboutHero() {
   return (
     <section className="w-full p-6 md:p-8 flex flex-col lg:flex-row items-center bg-sba-dark-red text-white">
       {/* Image container: stacks on top for mobile, shifts to left on large screens */}
@@ -16,9 +16,9 @@ export default function AboutCard() {
 
       {/* Text container: stacks below for mobile, shifts to right on large screens */}
       <div className="w-full lg:w-1/2 px-2 md:px-6">
-        <h2 className="mt-4 text-2xl md:text-3xl font-bold text-center lg:text-left">
-          About SBA (Sample Text & Image)
-        </h2>
+        <h1 className="mt-4 text-2xl md:text-3xl font-bold text-center lg:text-left">
+          UTSC Sports Business Association
+        </h1>
 
         <p className="my-6 text-sm md:text-base font-sans text-white/90 leading-relaxed text-left">
           lorem ipsum dolor sit amet consectetur adipiscing elit dignissimos culpa dolore 

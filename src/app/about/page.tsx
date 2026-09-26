@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import AboutCard from "@/components/AboutCard";
+import AboutHero from "@/components/AboutHero";
 import ExecutiveCard from "@/components/ExecutiveCard";
 import Footer from "@/components/Footer";
 
@@ -17,11 +17,11 @@ export default function About() {
 
       <Navbar />
 
-      <AboutCard />
+      <AboutHero />
 
       <h2 className="mt-12 flex justify-center text-3xl font-bold">Meet the Executives</h2>
 
-      <div className="mt-12 flex flex-wrap justify-center gap-4 w-full gap-6">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
         <ExecutiveCard
           name='Sample Exec 1'
           position='Sample Position'
