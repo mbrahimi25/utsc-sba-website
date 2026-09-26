@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import Divider from "@/components/Divider"
 import ArticleEventCard from "@/components/ArticleEventCard";
 import Footer from "@/components/Footer";
 
@@ -22,6 +23,8 @@ export default function NotFound() {
         On this page, you can find events organized by
         the UTSC Sports Business Association!
       </p>
+
+      <Divider />
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 max-w-5xl mx-auto">
       

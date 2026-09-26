@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image"
 
 import { FaLinkedin } from "react-icons/fa";
 
@@ -15,9 +16,11 @@ export default function ExecutiveCard({ name, position, image, linkedin, bio }: 
     <div className="w-full overflow-hidden shadow-lg bg-white border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
       {/* Executive Photo */}
       <div className="relative w-full h-56 sm:h-64 bg-gray-200">
-        <img 
+        <Image 
           src={image} 
-          alt={name} 
+          alt={name}
+          width={200}
+          height={200}
           className="w-full h-full object-cover"
         />
       </div>

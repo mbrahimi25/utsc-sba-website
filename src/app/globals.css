@@ -4,6 +4,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --color-sba-red: #d11f44;
   --color-sba-dark-red: #974646;
