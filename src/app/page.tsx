@@ -24,18 +24,18 @@ export default function Home() {
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 max-w-4xl mx-auto justify-items-center">
       
         <ArticleEventCard
-          title="Sample Article"
-          image="/sba_logo.png"
-          description="Sample Article"
-          link="/articles"
-        ></ArticleEventCard>
+        title="Manchester City: 114 Charges"
+        image="/articles/man-city-charges-2026.jpg"
+        description="One Verdict That Could Change English Football"
+        author="Mohamed Brahimi"
+        date="September 2026"
+        link="/articles/man-city-charges-2026"/>
 
         <ArticleEventCard
-          title="Sample Event"
-          image="/sba_logo.png"
-          description="Sample Event"
-          link="/events"
-        ></ArticleEventCard>
+        title="Sample Event"
+        image="/sba_logo.png"
+        description="Sample Event"
+        link="/events"/>
               
       </div>
 

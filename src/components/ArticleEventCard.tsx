@@ -6,10 +6,11 @@ interface CardProps {
   image: string;
   link: string;
   description: string;
+  author?: string;
   date?: string; // Optional: helpful if you want to display an event date or publish date
 }
 
-export default function ArticleEventCard({ title, image, link, description, date }: CardProps) {
+export default function ArticleEventCard({ title, image, link, description, author, date }: CardProps) {
   return (
     <Link 
       href={link}
@@ -27,15 +28,24 @@ export default function ArticleEventCard({ title, image, link, description, date
 
       {/* Card Content */}
       <div className="p-5 sm:p-6">
-        {/* Optional Date / Tag */}
-        {date && (
-          <span className="inline-block text-gray-500 text-xs font-semibold mb-2">
-            {date}
-          </span>
-        )}
+
+        <div className="flex w-full justify-between">
+          
+          {date && (
+            <p className="inline-block text-gray-500 text-xs font-semibold mb-2">
+              {date}
+            </p>
+          )}
+
+          {author && (
+            <p className="inline-block text-gray-500 text-xs font-semibold mb-2">
+              {author}
+            </p>
+          )}
+        </div>
 
         {/* Title (Changes color on hover) */}
-        <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 group-hover:text-sba-red transition-colors line-clamp-2">
+        <h3 className="text-lg sm:text-xl font-bold text-gray-900 mt-2 mb-2 group-hover:text-sba-red transition-colors line-clamp-2">
           {title}
         </h3>
 
