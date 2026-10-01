@@ -24,12 +24,12 @@ export default function Home() {
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 max-w-4xl mx-auto justify-items-center">
       
         <ArticleEventCard
-        title="Manchester City: 114 Charges"
-        image="/articles/man-city-charges-2026.jpg"
-        description="One Verdict That Could Change English Football"
-        author="Mohamed Brahimi"
+        title="The Jalen Duren Gamble"
+        image="/articles/jalen-duren-gamble-2026.png"
+        description="The Cost of Betting on a Breakout"
+        author="Aiden Loh"
         date="September 2026"
-        link="/articles/man-city-charges-2026"/>
+        link="/articles/jalen-duren-gamble-2026"/>
 
         <ArticleEventCard
         title="Sample Event"
