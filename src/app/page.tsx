@@ -8,7 +8,7 @@ import { Analytics } from '@vercel/analytics/next';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen">
       <Analytics />
 
       <Navbar />
@@ -18,7 +18,7 @@ export default function Home() {
       <h1 className="mt-12 flex justify-center text-4xl font-bold">Latest</h1>
 
       <p className="mt-4 text-center text-xl">
-        Events and weekly articles on sports business stories worth knowing.
+        Events and articles on sports business stories worth knowing.
       </p>
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 max-w-4xl mx-auto justify-items-center">

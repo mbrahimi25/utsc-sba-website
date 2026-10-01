@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function ArticlesPage() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen">
 
       <Navbar />
 
@@ -26,6 +26,14 @@ export default function ArticlesPage() {
       <Divider />
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 max-w-5xl mx-auto">
+
+        <ArticleEventCard
+        title="The Jalen Duren Gamble"
+        image="/articles/jalen-duren-gamble-2026.png"
+        description="The Cost of Betting on a Breakout"
+        author="Aiden Loh"
+        date="September 2026"
+        link="/articles/jalen-duren-gamble-2026"/>
 
         <ArticleEventCard
         title="Manchester City: 114 Charges"

@@ -4,6 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+import ThemeToggle from "@/components/ThemeToggle";
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -22,6 +24,11 @@ export default function Navbar() {
           <h2 className="text-lg md:text-xl font-bold text-white">
             UTSC Sports Business Association
           </h2>
+        </div>
+
+        {/* Desktop Theme Toggle (Hidden on Mobile) */}
+        <div className="hidden md:block">
+          <ThemeToggle />
         </div>
 
         {/* Desktop Links (Hidden on Mobile) */}
@@ -88,7 +95,7 @@ export default function Navbar() {
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out bg-sba-red border-white/10 text-white/80 font-sans shadow-lg ${
           isOpen
-            ? "max-h-60 opacity-100 border-t py-6 px-6"
+            ? "max-h-80 opacity-100 border-t py-6 px-6"
             : "max-h-0 opacity-0 border-t-0 py-0 px-6"
         }`}
       >
@@ -121,6 +128,12 @@ export default function Navbar() {
           >
             Events
           </Link>
+
+          {/* Mobile Theme Toggle Row */}
+          <div className="flex items-center justify-between pt-4 mt-2 border-t border-white/10">
+            <span className="text-white/90 text-sm font-medium">Appearance</span>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </nav>

@@ -39,7 +39,7 @@ export default function ArticleHero({ title, author, image, width, height, capti
             priority
           />
           {caption && (
-            <p className="mt-2 text-xs md:text-sm font-sans text-white/70 text-left">
+            <p className="mt-2 text-xs md:text-sm font-sans text-black/70 dark:text-white/70 transition-color duration-300 text-left">
               {caption}
             </p>
           )}
