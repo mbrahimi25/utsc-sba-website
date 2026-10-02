@@ -24,7 +24,7 @@ export default function JalenDurenGamble2026() {
       height={1440}
       caption="Jalen Duren for the Detroit Pistons - Jason Miller/Getty Images"
       alt="Jalen Duren for the Detroit Pistons"
-      date="September 2026"/>
+      date="October 2026"/>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6">
 

@@ -3,10 +3,16 @@ import Navbar from "@/components/Navbar";
 import { Pattern as HomepageCarousel } from "@/components/examples/homepage_carousel"
 import ArticleEventCard from "@/components/ArticleEventCard";
 import Footer from "@/components/Footer";
+import { articles } from "@/data/articles";
 
 import { Analytics } from '@vercel/analytics/next';
 
 export default function Home() {
+
+  const latestArticle = articles[0];
+  // Takes first element from articles.ts, and treats it as the most recent article
+  // In the future, could switch this to taking the article with the most recent publishedAt date
+
   return (
     <main className="min-h-screen">
       <Analytics />
@@ -24,12 +30,12 @@ export default function Home() {
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6 p-6 max-w-4xl mx-auto justify-items-center">
       
         <ArticleEventCard
-        title="The Jalen Duren Gamble"
-        image="/articles/jalen-duren-gamble-2026.png"
-        description="The Cost of Betting on a Breakout"
-        author="Aiden Loh"
-        date="September 2026"
-        link="/articles/jalen-duren-gamble-2026"/>
+        title={latestArticle.title}
+        image={latestArticle.image}
+        description={latestArticle.description}
+        author={latestArticle.author}
+        date={latestArticle.date}
+        link={latestArticle.link}/>
 
         <ArticleEventCard
         title="Sample Event"
