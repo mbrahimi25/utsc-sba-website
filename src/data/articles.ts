@@ -12,6 +12,16 @@ export interface Article {
 
 export const articles: Article[] = [
     {
+        title: "Toronto FC vs. CF Montreal",
+        image: "/articles/tfc-mtl-comeback-2026.png",
+        description: "The Drama behind the Late Comeback",
+        author: "Mohamed Brahimi",
+        date: "October 2026",
+        publishedAt: "2026-10-11",
+        link: "/articles/tfc-mtl-comeback-2026",
+    },
+    
+    {
         title: "The Jalen Duren Gamble",
         image: "/articles/jalen-duren-gamble-2026.png",
         description: "The Cost of Betting on a Breakout",

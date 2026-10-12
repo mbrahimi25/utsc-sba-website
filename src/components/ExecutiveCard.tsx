@@ -47,7 +47,7 @@ export default function ExecutiveCard({ name, position, image, linkedin, bio }: 
         </div>
 
         {/* Role Description & Bio */}
-        <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
+        <p className="text-gray-600 text-xs sm:text-sm leading-relaxed whitespace-pre-line">
           {bio}
         </p>
       </div>

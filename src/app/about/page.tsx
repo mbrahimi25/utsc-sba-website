@@ -23,33 +23,33 @@ export default function About() {
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
         <ExecutiveCard
-          name='Sample Exec 1'
-          position='Sample Position'
-          image='/sba_logo.png'
-          linkedin='https://www.linkedin.com/'
-          bio='Sample Description'
+          name='Kyrie Ou'
+          position='Events Director'
+          image='/execs/kyrie_ou.jpeg'
+          linkedin='https://www.linkedin.com/in/kyrieouoft/'
+          bio='2nd year student majoring in Statistics. Favorite sport: Basketball'
         ></ExecutiveCard>
 
         <ExecutiveCard
-          name='Sample Exec 2'
-          position='Sample Position'
-          image='/sba_logo.png'
-          linkedin='https://www.linkedin.com/'
-          bio='Sample Description'
+          name='Elena Parennas'
+          position='Events VP Director'
+          image='/execs/default.jpg'
+          linkedin='https://www.linkedin.com/in/elena-parrenas'
+          bio='3rd year Business Management student. Favorite sport: Soccer. Favorite team: FC Barcelona'
         ></ExecutiveCard>
 
         <ExecutiveCard
-          name='Sample Exec 3'
-          position='Sample Position'
-          image='/sba_logo.png'
-          linkedin='https://www.linkedin.com/'
-          bio='Sample Description'
+          name='Audrey Sun'
+          position='Marketing & Photography'
+          image='/execs/audrey_sun.jpeg'
+          linkedin='https://www.linkedin.com/in/audrey-sun-6a3655320/'
+          bio='2nd year MIB BBA student. Favorite sport: Skating'
         ></ExecutiveCard>
 
         <ExecutiveCard
           name='Sample Exec 4'
           position='Sample Position'
-          image='/sba_logo.png'
+          image='/execs/default.jpg'
           linkedin='https://www.linkedin.com/'
           bio='Sample Description'
         ></ExecutiveCard>
@@ -57,7 +57,7 @@ export default function About() {
         <ExecutiveCard
           name='Sample Exec 5'
           position='Sample Position'
-          image='/sba_logo.png'
+          image='/execs/default.jpg'
           linkedin='https://www.linkedin.com/'
           bio='Sample Description'
         ></ExecutiveCard>
@@ -65,7 +65,7 @@ export default function About() {
         <ExecutiveCard
           name='Sample Exec 6'
           position='Sample Position'
-          image='/sba_logo.png'
+          image='/execs/default.jpg'
           linkedin='https://www.linkedin.com/'
           bio='Sample Description'
         ></ExecutiveCard>
@@ -73,7 +73,7 @@ export default function About() {
         <ExecutiveCard
           name='Sample Exec 7'
           position='Sample Position'
-          image='/sba_logo.png'
+          image='/execs/default.jpg'
           linkedin='https://www.linkedin.com/'
           bio='Sample Description'
         ></ExecutiveCard>
@@ -81,7 +81,7 @@ export default function About() {
         <ExecutiveCard
           name='Sample Exec 8'
           position='Sample Position'
-          image='/sba_logo.png'
+          image='/execs/default.jpg'
           linkedin='https://www.linkedin.com/'
           bio='Sample Description'
         ></ExecutiveCard>
@@ -89,7 +89,7 @@ export default function About() {
         <ExecutiveCard
           name='Sample Exec 9'
           position='Sample Position'
-          image='/sba_logo.png'
+          image='/execs/default.jpg'
           linkedin='https://www.linkedin.com/'
           bio='Sample Description'
         ></ExecutiveCard>
