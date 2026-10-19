@@ -20,12 +20,12 @@ export default function Footer() {
             className="md:h-[75px] md:w-[75px]"
           />
 
-          <p className="text-sm text-white/70">
+          <p className="text-sm text-white">
             © {new Date().getFullYear()} UTSC Sports Business Association. All rights reserved.
           </p>
         </div>
 
-        <div className="flex gap-6 text-sm text-white/70">
+        <div className="flex gap-6 text-sm text-white">
 
           <Link
           href="https://www.instagram.com/utscsportsbusiness/"

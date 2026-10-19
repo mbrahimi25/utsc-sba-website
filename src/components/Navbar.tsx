@@ -32,7 +32,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Links (Hidden on Mobile) */}
-        <div className="hidden md:flex gap-6 text-white/70 font-sans">
+        <div className="hidden md:flex gap-6 text-white font-sans">
           <Link href="/" className="hover:text-white transition-colors">
             Home
           </Link>

@@ -45,9 +45,9 @@ export default function ArticleEventCard({ title, image, link, description, auth
         </div>
 
         {/* Title (Changes color on hover) */}
-        <h3 className="text-lg sm:text-xl font-bold text-gray-900 mt-2 mb-2 group-hover:text-sba-red transition-colors line-clamp-2">
+        <h2 className="text-lg sm:text-xl font-bold text-gray-900 mt-2 mb-2 group-hover:text-sba-red transition-colors line-clamp-2">
           {title}
-        </h3>
+        </h2>
 
         {/* 1-2 Sentence Breakdown */}
         <p className="text-gray-600 text-sm leading-relaxed line-clamp-2">
