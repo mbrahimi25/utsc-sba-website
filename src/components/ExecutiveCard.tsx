@@ -7,11 +7,11 @@ interface ExecutiveCardProps {
   name: string;
   position: string;
   image: string;
-  linkedin: string;
   bio: string;
+  linkedin?: string;
 }
 
-export default function ExecutiveCard({ name, position, image, linkedin, bio }: ExecutiveCardProps) {
+export default function ExecutiveCard({ name, position, image, bio, linkedin,}: ExecutiveCardProps) {
   return (
     <div className="w-full overflow-hidden shadow-lg bg-white border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
       {/* Executive Photo */}
@@ -35,15 +35,16 @@ export default function ExecutiveCard({ name, position, image, linkedin, bio }: 
         {/* Name and LinkedIn */}
         <div className="flex items-center justify-between mb-2">
           <h3 className="text-lg sm:text-xl font-bold text-gray-900 truncate">{name}</h3>
-          <Link 
+          {linkedin &&
+            <Link 
             href={linkedin} 
             target="_blank" 
             rel="noopener noreferrer"
             className="transition duration-200 hover:scale-110 flex-shrink-0 ml-2" 
-            title="LinkedIn"
-          >
-            <FaLinkedin color="black" size={24}/>
-          </Link>
+            title="LinkedIn">
+              <FaLinkedin color="black" size={24}/>
+            </Link>
+          }
         </div>
 
         {/* Role Description & Bio */}

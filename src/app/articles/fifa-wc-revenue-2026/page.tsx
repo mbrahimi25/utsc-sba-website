@@ -21,7 +21,7 @@ export default function FifaWcRevenue2026() {
       <ArticleHero
         title="Beyond the Trophy: The Business Behind the 2026 FIFA World Cup"
         author="Mohamed Brahimi"
-        image="/articles/fifa-wc-revenue-2026.jpg"
+        image="/articles/fifa-wc-revenue-2026.webp"
         width={600}
         height={468}
         caption="FIFA President Gianni Infantino standing with the World Cup Trophy - FIFA"

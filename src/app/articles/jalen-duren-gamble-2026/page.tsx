@@ -19,7 +19,7 @@ export default function JalenDurenGamble2026() {
       <ArticleHero
       title="The Jalen Duren Gamble - The Cost of Betting on a Breakout"
       author="Aiden Loh"
-      image="/articles/jalen-duren-gamble-2026.png"
+      image="/articles/jalen-duren-gamble-2026.webp"
       width={2560}
       height={1440}
       caption="Jalen Duren for the Detroit Pistons - Jason Miller/Getty Images"

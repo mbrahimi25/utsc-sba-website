@@ -13,7 +13,7 @@ export interface Article {
 export const articles: Article[] = [
     {
         title: "Toronto FC vs. CF Montreal",
-        image: "/articles/tfc-mtl-comeback-2026.png",
+        image: "/articles/tfc-mtl-comeback-2026.webp",
         description: "The Drama behind the Late Comeback",
         author: "Mohamed Brahimi",
         date: "October 2026",
@@ -23,7 +23,7 @@ export const articles: Article[] = [
     
     {
         title: "The Jalen Duren Gamble",
-        image: "/articles/jalen-duren-gamble-2026.png",
+        image: "/articles/jalen-duren-gamble-2026.webp",
         description: "The Cost of Betting on a Breakout",
         author: "Aiden Loh",
         date: "October 2026",
@@ -33,7 +33,7 @@ export const articles: Article[] = [
 
     {
         title:"Manchester City: 114 Charges",
-        image:"/articles/man-city-charges-2026.jpg",
+        image:"/articles/man-city-charges-2026.webp",
         description:"One Verdict That Could Change English Football",
         author:"Mohamed Brahimi",
         date:"September 2026",
@@ -43,7 +43,7 @@ export const articles: Article[] = [
 
     {
         title:"Kawhi to Toronto",
-        image:"/articles/kawhi-leonard-scandal-2026.jpg",
+        image:"/articles/kawhi-leonard-scandal-2026.webp",
         description:"The Clippers Salary Cap Scandal",
         author:"Mohamed Brahimi",
         date:"September 2026",
@@ -53,7 +53,7 @@ export const articles: Article[] = [
 
     {
         title:"Beyond the Trophy",
-        image:"/articles/fifa-wc-revenue-2026.jpg",
+        image:"/articles/fifa-wc-revenue-2026.webp",
         description:"The Business Behind the 2026 FIFA World Cup",
         author:"Mohamed Brahimi",
         date:"July 2026",
@@ -63,7 +63,7 @@ export const articles: Article[] = [
 
     {
         title:"From Contenders to Crisis",
-        image:"/articles/tottenham-crisis-2026.png",
+        image:"/articles/tottenham-crisis-2026.webp",
         description:"The Story of Tottenham Hotspur",
         author:"Mohamed Brahimi",
         date:"March 2026",
@@ -73,7 +73,7 @@ export const articles: Article[] = [
 
     {
         title:"NCAA vs OUA",
-        image:"/articles/ncaa-oua-2026.png",
+        image:"/articles/ncaa-oua-2026.webp",
         description:"What Ontario (and Canada) Can Learn from the NIL Era",
         author:"Mohamed Brahimi",
         date:"March 2026",
@@ -83,7 +83,7 @@ export const articles: Article[] = [
 
     {
         title:"Seahawks Win Second Super Bowl",
-        image:"/articles/super-bowl-2026.jpg",
+        image:"/articles/super-bowl-2026.webp",
         description:"What went down in Santa Clara",
         author:"Mohamed Brahimi",
         date:"February 2026",
@@ -93,7 +93,7 @@ export const articles: Article[] = [
 
     {
         title:"The Josh Sargent Drama",
-        image:"/articles/josh-sargent-drama.jpg",
+        image:"/articles/josh-sargent-drama.webp",
         description:"The story behind TFC's offer",
         author:"Mohamed Brahimi",
         date:"January 2026",
@@ -103,7 +103,7 @@ export const articles: Article[] = [
 
     {
         title:"Qualifying Fever",
-        image:"/articles/wc-qualification-2026.jpg",
+        image:"/articles/wc-qualification-2026.webp",
         description:"The Race to the 2026 World Cup",
         author:"Mohamed Brahimi",
         date:"October 2025",
@@ -113,7 +113,7 @@ export const articles: Article[] = [
 
     {
         title:"Tension to Victory",
-        image:"/articles/mclaren-constructors-2025.jpg",
+        image:"/articles/mclaren-constructors-2025.webp",
         description:"McLaren's Constructors' Dominance",
         author:"Mohamed Brahimi",
         date:"October 2025",
@@ -123,7 +123,7 @@ export const articles: Article[] = [
 
     {
         title:"Beyond the Salary Cap",
-        image:"/articles/miami-tfc-2025.jpg",
+        image:"/articles/miami-tfc-2025.webp",
         description:"How Designated Players shaped TFC vs. Miami",
         author:"Mohamed Brahimi",
         date:"September 2025",

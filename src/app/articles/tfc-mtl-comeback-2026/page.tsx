@@ -19,7 +19,7 @@ export default function WcQual2026() {
       <ArticleHero
       title="Toronto FC Complete Dramatic Late Comeback Against CF Montréal"
       author="Mohamed Brahimi"
-      image="/articles/tfc-mtl-comeback-2026.png"
+      image="/articles/tfc-mtl-comeback-2026.webp"
       width={1166}
       height={468}
       caption="Mihailovic and Laryea celebrate TFC's 90+5' winner - Frank Gunn/The Canadian Press"

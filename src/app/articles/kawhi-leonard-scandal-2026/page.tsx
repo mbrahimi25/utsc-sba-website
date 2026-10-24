@@ -19,7 +19,7 @@ export default function KawhiLeonardScandal2026() {
       <ArticleHero
       title="Kawhi to Toronto - The Clippers Salary Cap Scandal"
       author="Mohamed Brahimi"
-      image="/articles/kawhi-leonard-scandal-2026.jpg"
+      image="/articles/kawhi-leonard-scandal-2026.webp"
       width={1166}
       height={468}
       caption="The Raptors' Jakob Poeltl defending a shot from Kawhi Leonard - AP Photo/Mark J. Terrill"

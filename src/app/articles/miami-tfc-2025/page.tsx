@@ -19,7 +19,7 @@ export default function MiamiTfc2025() {
       <ArticleHero
       title="Beyond the Salary Cap - How Designated Players shaped TFC vs. Miami"
       author="Mohamed Brahimi"
-      image="/articles/miami-tfc-2025.jpg"
+      image="/articles/miami-tfc-2025.webp"
       width={1166}
       height={468}
       caption="Photo: TFC Republic"

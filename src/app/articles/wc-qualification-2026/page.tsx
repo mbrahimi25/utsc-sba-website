@@ -19,7 +19,7 @@ export default function WcQual2026() {
       <ArticleHero
       title="Qualifying Fever - The Race to the 2026 FIFA World Cup"
       author="Mohamed Brahimi"
-      image="/articles/wc-qualification-2026.jpg"
+      image="/articles/wc-qualification-2026.webp"
       width={1166}
       height={468}
       caption="Olivia Chow poses in Toronto amidst a celebration of one year left until the 2026 FIFA World Cup - Photo shared by FIFA"

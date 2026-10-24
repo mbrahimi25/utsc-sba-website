@@ -19,7 +19,7 @@ export default function ManCityCharges2026() {
       <ArticleHero
       title="Manchester City: 114 Charges, One Verdict That Could Change English Football"
       author="Mohamed Brahimi"
-      image="/articles/man-city-charges-2026.jpg"
+      image="/articles/man-city-charges-2026.webp"
       width={547}
       height={365}
       caption="Manchester City's Etihad Stadium - AP"

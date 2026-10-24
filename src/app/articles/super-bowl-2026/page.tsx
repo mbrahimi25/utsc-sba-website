@@ -19,7 +19,7 @@ export default function SuperBowl2026() {
       <ArticleHero
       title="Seahawks Win Second Super Bowl"
       author="Mohamed Brahimi"
-      image="/articles/super-bowl-2026.jpg"
+      image="/articles/super-bowl-2026.webp"
       width={1166}
       height={468}
       caption="Fireworks over Levi's Stadium after the game - Frank Franklin II/AP"

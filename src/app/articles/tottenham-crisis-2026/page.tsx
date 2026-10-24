@@ -19,7 +19,7 @@ export default function TottenhamCrisis2026() {
       <ArticleHero
       title="From Contenders to Crisis: The Story of Tottenham Hotspur"
       author="Mohamed Brahimi"
-      image="/articles/tottenham-crisis-2026.png"
+      image="/articles/tottenham-crisis-2026.webp"
       width={1166}
       height={468}
       caption="Nottingham Forest players celebrating a goal against Tottenham Hotspur - Alex Pantling/Getty Images"

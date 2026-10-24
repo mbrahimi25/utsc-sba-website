@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# Uncompressed and compressed images, and script used to compress them
+/non_public
+/scripts
+
 # debug
 npm-debug.log*
 yarn-debug.log*

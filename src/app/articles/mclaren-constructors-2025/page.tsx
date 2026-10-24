@@ -19,7 +19,7 @@ export default function MclarenConstructors2025() {
       <ArticleHero
       title="Tension to Victory - McLaren's Constructors' Dominance"
       author="Mohamed Brahimi"
-      image="/articles/mclaren-constructors-2025.jpg"
+      image="/articles/mclaren-constructors-2025.webp"
       width={1200}
       height={482}
       caption="Oscar Piastri racing for McLaren in Japan - Wikimedia Commons contributors"

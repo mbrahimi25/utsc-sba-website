@@ -19,7 +19,7 @@ export default function JoshSargentDrama() {
       <ArticleHero
       title="The Josh Sargent Transfer Drama"
       author="Mohamed Brahimi"
-      image="/articles/josh-sargent-drama.jpg"
+      image="/articles/josh-sargent-drama.webp"
       width={1166}
       height={468}
       caption="Josh Sargent in a Norwich City FC kit - Getty Images"

@@ -19,7 +19,7 @@ export default function NcaaOua2026() {
       <ArticleHero
       title="NCAA vs OUA: What Ontario (and Canada) Can Learn from the NIL Era"
       author="Mohamed Brahimi"
-      image="/articles/ncaa-oua-2026.png"
+      image="/articles/ncaa-oua-2026.webp"
       width={1166}
       height={468}
       caption="A 2023 OUA football game taking place in Kingston, ON, between the Western Mustangs and the Queen's Gaels - Western Mustangs"
