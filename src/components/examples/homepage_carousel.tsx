@@ -1,6 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
+import Image from "next/image"
 import { cn } from "@/lib/utils" // Change to "cn" if your project requires it
 import {
   Carousel,
@@ -10,11 +11,11 @@ import {
 } from "@/components/ui/carousel"
 
 const CUSTOM_SLIDES = [
-  { id: 1, src: "/2025_networking/image1.jpg", alt: "Networking Event 1", title: "Caption 1" },
-  { id: 2, src: "/2025_networking/image2.jpg", alt: "Networking Event 2", title: "Caption 2" },
-  { id: 3, src: "/2025_networking/image3.jpg", alt: "Networking Event 3", title: "Caption 3" },
-  { id: 4, src: "/2025_networking/image4.jpg", alt: "Networking Event 4", title: "Caption 4" },
-  { id: 5, src: "/2025_networking/image5.jpg", alt: "Networking Event 5", title: "Caption 5" },
+  { id: 1, src: "/2025_networking/image1.webp", alt: "Networking Event 1", title: "Caption 1" },
+  { id: 2, src: "/2025_networking/image2.webp", alt: "Networking Event 2", title: "Caption 2" },
+  { id: 3, src: "/2025_networking/image3.webp", alt: "Networking Event 3", title: "Caption 3" },
+  { id: 4, src: "/2025_networking/image4.webp", alt: "Networking Event 4", title: "Caption 4" },
+  { id: 5, src: "/2025_networking/image5.webp", alt: "Networking Event 5", title: "Caption 5" },
 ]
 
 export function Pattern() {
@@ -58,9 +59,10 @@ export function Pattern() {
             {CUSTOM_SLIDES.map((slide) => (
               <CarouselItem key={slide.id} className="pl-0">
                 <div className="bg-muted relative h-[75vh] w-full overflow-hidden">
-                  <img
+                  <Image
                     src={slide.src}
                     alt={slide.alt}
+                    fill
                     className="h-full w-full object-cover"
                   />
                   
@@ -102,9 +104,10 @@ export function Pattern() {
                           : "border-white/40 opacity-50 hover:opacity-80"
                       )}
                     >
-                      <img
+                      <Image
                         src={slide.src}
                         alt={`Thumb ${slide.alt}`}
+                        fill
                         className="h-full w-full object-cover"
                       />
                     </div>
