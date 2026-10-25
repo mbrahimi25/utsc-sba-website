@@ -13,7 +13,7 @@ interface ExecutiveCardProps {
 
 export default function ExecutiveCard({ name, position, image, bio, linkedin,}: ExecutiveCardProps) {
   return (
-    <div className="w-full overflow-hidden shadow-lg bg-white border border-gray-100 transition-transform duration-300 hover:-translate-y-1">
+    <div className="w-full overflow-hidden shadow-lg bg-white border border-gray-300 dark:border-transparent transition-transform duration-300 hover:-translate-y-1">
       {/* Executive Photo */}
       <div className="relative w-full h-56 sm:h-64 bg-gray-200">
         <Image 

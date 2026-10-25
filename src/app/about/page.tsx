@@ -32,18 +32,19 @@ export default function About() {
         ></ExecutiveCard>
 
         <ExecutiveCard
-          name='Elena Parennas'
-          position='Events VP Director'
-          image='/execs/individual/elena_head.webp'
-          bio='3rd year Business Management student. Favourite sport: Soccer. Favourite team: FC Barcelona'
-          linkedin='https://www.linkedin.com/in/elena-parrenas'
-        ></ExecutiveCard>
-
-        <ExecutiveCard
           name='Catalina Bedoya Fuller'
           position='VP of Operations'
           image='/execs/individual/catalina_head.webp'
           bio='4th year Media Studies student. Favourite sport: Soccer. Favourite team: FC Barcelona'
+          linkedin='https://www.linkedin.com/in/catalina-bedoya-a599b8329/'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Nathan Oribhabor'
+          position='Co-VP of Marketing'
+          image='/execs/individual/nathan_head2.webp'
+          bio='3rd year Arts Management and Media Studies student. Favourite sport: Hockey. Favourite team: Toronto Maple Leafs'
+          linkedin='https://www.linkedin.com/in/nathan-oribhabor-81755a323/'
         ></ExecutiveCard>
 
         <ExecutiveCard
@@ -55,11 +56,35 @@ export default function About() {
         ></ExecutiveCard>
 
         <ExecutiveCard
+          name='Ahso Yun'
+          position='VP of Outreach'
+          image='/execs/individual/ahso_head.webp'
+          bio='2nd year BBA Co-op student specializing in Entrepreneurship. Favourite sport: Soccer. Favourite team: Manchester United'
+          linkedin='https://www.linkedin.com/in/ahso-yun-2oo6o529'
+        ></ExecutiveCard>
+        
+        <ExecutiveCard
+          name='Elena Parennas'
+          position='Events VP Director'
+          image='/execs/individual/elena_head.webp'
+          bio='3rd year Business Management student. Favourite sport: Soccer. Favourite team: FC Barcelona'
+          linkedin='https://www.linkedin.com/in/elena-parrenas'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
           name='Kyrie Ou'
           position='Events Director'
           image='/execs/individual/kyrie_head.webp'
           bio='2nd year Statistics student. Favourite sport: Basketball'
           linkedin='https://www.linkedin.com/in/kyrieouoft/'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Arden Rego'
+          position='N/A'
+          image='/execs/individual/arden_head.webp'
+          bio='4th year Mental Health and Neuroscience student. Favourite sports: Soccer and Hockey. Favourite teams: Liverpool FC and the Ottawa Senators'
+          linkedin='https://www.linkedin.com/in/arden-rego/'
         ></ExecutiveCard>
 
         <ExecutiveCard
@@ -89,8 +114,24 @@ export default function About() {
           name='Mohamed Brahimi'
           position='Education/Web Coordinator'
           image='/execs/individual/mohamed_head.webp'
-          bio='2nd year Statistics and Computer Science student. Favourite sport: Soccer. Favourite team: Toronto FC'
+          bio='2nd year Computer Science and Statistics student. Favourite sport: Soccer. Favourite team: Toronto FC'
           linkedin='https://www.linkedin.com/in/mohbrahimi/'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Noah Payne'
+          position='Research Coordinator'
+          image='/execs/individual/noah_head.webp'
+          bio='2nd year Business Administration student.'
+          linkedin='https://www.linkedin.com/in/noahpayne07/'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Aiden Loh'
+          position='Education Coordinator'
+          image='/execs/default.webp'
+          bio='3nd year Management student specializing in Accounting. Favourite sports: Basketball and football. Favourite team: Toronto Raptors'
+          linkedin='https://www.linkedin.com/in/aiden-loh/'
         ></ExecutiveCard>
 
       </div>

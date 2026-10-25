@@ -14,7 +14,7 @@ export default function ArticleEventCard({ title, image, link, description, auth
   return (
     <Link 
       href={link}
-      className="group block w-full overflow-hidden shadow-lg bg-white border border-gray-100 transition-transform duration-300 hover:-translate-y-1"
+      className="group block w-full overflow-hidden shadow-lg bg-white border border-gray-300 dark:border-transparent transition-transform duration-300 hover:-translate-y-1"
     >
       {/* Image Container */}
       <div className="relative w-full h-48 sm:h-56 bg-gray-200 overflow-hidden">
