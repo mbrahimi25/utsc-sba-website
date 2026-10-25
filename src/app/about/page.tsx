@@ -32,19 +32,34 @@ export default function About() {
         ></ExecutiveCard>
 
         <ExecutiveCard
-          name='Kyrie Ou'
-          position='Events Director'
-          image='/execs/individual/kyrie_head.webp'
-          bio='2nd year student majoring in Statistics. Favourite sport: Basketball'
-          linkedin='https://www.linkedin.com/in/kyrieouoft/'
-        ></ExecutiveCard>
-
-        <ExecutiveCard
           name='Elena Parennas'
           position='Events VP Director'
           image='/execs/individual/elena_head.webp'
           bio='3rd year Business Management student. Favourite sport: Soccer. Favourite team: FC Barcelona'
           linkedin='https://www.linkedin.com/in/elena-parrenas'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Catalina Bedoya Fuller'
+          position='VP of Operations'
+          image='/execs/individual/catalina_head.webp'
+          bio='4th year Media Studies student. Favourite sport: Soccer. Favourite team: FC Barcelona'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Samten Loden'
+          position='Co-VP of Marketing'
+          image='/execs/individual/samten_head1.webp'
+          bio='4th year BBA Management student specializing in Human Resources. Favourite sport: Soccer'
+          linkedin='http://www.linkedin.com/in/samtenloden'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Kyrie Ou'
+          position='Events Director'
+          image='/execs/individual/kyrie_head.webp'
+          bio='2nd year Statistics student. Favourite sport: Basketball'
+          linkedin='https://www.linkedin.com/in/kyrieouoft/'
         ></ExecutiveCard>
 
         <ExecutiveCard
@@ -63,14 +78,6 @@ export default function About() {
         ></ExecutiveCard>
 
         <ExecutiveCard
-          name='Samten Loden'
-          position='Co-VP of Marketing'
-          image='/execs/individual/samten_head1.webp'
-          bio='4th year BBA Management student specializing in Human Resources. Favourite sport: Soccer'
-          linkedin='http://www.linkedin.com/in/samtenloden'
-        ></ExecutiveCard>
-
-        <ExecutiveCard
           name='Jovita Au'
           position='Graphic Designer'
           image='/execs/individual/jovita_head.webp'
@@ -84,14 +91,6 @@ export default function About() {
           image='/execs/individual/mohamed_head.webp'
           bio='2nd year Statistics and Computer Science student. Favourite sport: Soccer. Favourite team: Toronto FC'
           linkedin='https://www.linkedin.com/in/mohbrahimi/'
-        ></ExecutiveCard>
-
-        <ExecutiveCard
-          name='Sample Exec 9'
-          position='Sample Position'
-          image='/execs/default.webp'
-          bio='Sample Description'
-          linkedin='https://www.linkedin.com/'
         ></ExecutiveCard>
 
       </div>
