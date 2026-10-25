@@ -3,7 +3,6 @@ import Image from "next/image"
 
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { PiLinktreeLogoFill } from "react-icons/pi";
-import { IoIosArrowUp } from "react-icons/io";
 
 export default function Footer() {
   return (

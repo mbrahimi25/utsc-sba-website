@@ -17,7 +17,7 @@ export default function WcQual2026() {
       <Navbar />
 
       <ArticleHero
-      title="Toronto FC Complete Dramatic Late Comeback Against CF Montréal"
+      title="Toronto FC Complete Dramatic Late Comeback Against CF Montreal"
       author="Mohamed Brahimi"
       image="/articles/tfc-mtl-comeback-2026.webp"
       width={1166}
@@ -38,13 +38,13 @@ export default function WcQual2026() {
         </ArticleP>
 
         <ArticleP>
-          Toronto FC delivered a dramatic comeback in what was described as a must-win game on Saturday, defeating rivals CF Montréal
+          Toronto FC delivered a dramatic comeback in what was described as a must-win game on Saturday, defeating rivals CF Montreal
           2–1 at BMO Field in the latest edition of the 401 Derby. Trailing for most of the second half, the Reds scored twice in
           stoppage time to secure three crucial points and end a three-game losing streak.
         </ArticleP>
 
         <ArticleP>
-          After a scoreless first half, Montréal took the lead in the 52nd minute when Daniel Ríos capitalized on a rebound following a
+          After a scoreless first half, Montreal took the lead in the 52nd minute when Daniel Ríos capitalized on a rebound following a
           save by Toronto goalkeeper William Yarbrough, who came on in the first half after starting keeper Luka Gavran suffered what
           appeared to be a knock. Toronto struggled to find an equalizer despite creating several opportunities, forcing head coach Robin Fraser,
           who is currently in the hot seat, to turn to his bench for an attacking spark.
@@ -66,7 +66,7 @@ export default function WcQual2026() {
         </ArticleP>
 
         <ArticleP>
-          The victory also extended Toronto FC's unbeaten run against Montréal in MLS regular-season play to six consecutive meetings. As the regular season nears 
+          The victory also extended Toronto FC's unbeaten run against Montreal in MLS regular-season play to six consecutive meetings. As the regular season nears 
           its end, the Reds will look to build on this momentum and deliver more consistent performances.
         </ArticleP>
 

@@ -26,7 +26,7 @@ export default function About() {
         <ExecutiveCard
           name='Sem Nyong'
           position='Co-President'
-          image='/execs/default.webp'
+          image='/execs/individual/sem_head.webp'
           bio='4th year Management & Marketing student. Favourite sport: Basketball'
           linkedin='http://www.linkedin.com/in/sem-nyong-a1334b312'
         ></ExecutiveCard>
@@ -34,7 +34,7 @@ export default function About() {
         <ExecutiveCard
           name='Michael Aneke'
           position='Co-President'
-          image='/execs/default.webp'
+          image='/execs/individual/michael_head.webp'
           bio='4th year Management student specializing in Finance. Favourite sport: Soccer. Favourite team: Chelsea FC'
           linkedin='https://www.linkedin.com/in/michaelaneke/'
         ></ExecutiveCard>
@@ -73,10 +73,18 @@ export default function About() {
         
         <ExecutiveCard
           name='Elena Parennas'
-          position='Events VP Director'
+          position='VP of Events'
           image='/execs/individual/elena_head.webp'
           bio='3rd year Business Management student. Favourite sport: Soccer. Favourite team: FC Barcelona'
           linkedin='https://www.linkedin.com/in/elena-parrenas'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Emma Kajh'
+          position='VP of Education'
+          image='/execs/individual/emma_head.webp'
+          bio='N/A'
+          linkedin='https://www.linkedin.com/in/emmakajh/'
         ></ExecutiveCard>
 
         <ExecutiveCard
@@ -98,7 +106,7 @@ export default function About() {
         <ExecutiveCard
           name='Audrey Sun'
           position='Marketing & Photography'
-          image='/execs/default.webp'
+          image='/execs/individual/audrey_head.webp'
           bio='2nd year MIB BBA student. Favourite sport: Skating'
           linkedin='https://www.linkedin.com/in/audrey-sun-6a3655320/'
         ></ExecutiveCard>
@@ -120,7 +128,7 @@ export default function About() {
 
         <ExecutiveCard
           name='Mohamed Brahimi'
-          position='Education/Web Coordinator'
+          position='Education & Web Coordinator'
           image='/execs/individual/mohamed_head.webp'
           bio='2nd year Computer Science and Statistics student. Favourite sport: Soccer. Favourite team: Toronto FC'
           linkedin='https://www.linkedin.com/in/mohbrahimi/'
@@ -137,7 +145,7 @@ export default function About() {
         <ExecutiveCard
           name='Aiden Loh'
           position='Education Coordinator'
-          image='/execs/default.webp'
+          image='/execs/individual/aiden_head.webp'
           bio='3nd year Management student specializing in Accounting. Favourite sports: Basketball and football. Favourite team: Toronto Raptors'
           linkedin='https://www.linkedin.com/in/aiden-loh/'
         ></ExecutiveCard>
