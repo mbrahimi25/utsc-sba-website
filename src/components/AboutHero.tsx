@@ -21,23 +21,22 @@ export default function AboutHero() {
         </h1>
 
         <p className="my-6 text-sm md:text-base font-sans text-white/90 leading-relaxed text-left">
-          lorem ipsum dolor sit amet consectetur adipiscing elit dignissimos culpa dolore 
-          autem sunt dolore culpa provident est dolorum et culpa officia imperdiet nihil 
-          distinctio culpa labore mollitia optio ducimus do tempore vel et iusto dolore 
-          possimus ut quidem voluptate eum occaecat repellendus odio eu corrupti quis maxime 
-          qui libero quo et laboris et consectetur deleniti quis dolore eu quis occaecat sunt 
-          et fuga sunt amet et dolorum consectetur id maxime in provident quo eiusmod esse ducimus 
-          eos commodo at et officia et esse consectetur consequat nam similique quas excepteur
-          
-          <br/><br/>
-
-          praesentium esse dignissimos exercitation temporibus mollit possimus et est quidem 
-          soluta deserunt nisi imperdiet nostrud at laborum qui enim laborum et imperdiet et 
-          dolorem quos anim consequatur ex omnis est velit voluptas qui nihil in laboris dolor 
-          veniam odio sit quo nihil eu harum et placeat qui eos cumque pariatur sunt eiusmod rerum 
-          ullamco libero magna ut atque non odio et accusamus ipsum qui dolor velit animi deleniti 
-          velit quos ut esse et dolorum laboris magna expedita ea anim consequat ea quos blanditiis
+          The Sports Business Association is a student-led organization dedicated to helping students explore 
+          and gain experience in the dynamic world behind sports from business, marketing, and operations to nutrition, 
+          media, and performance management. Our mission is to build a fun, inclusive, and professional environment 
+          where members can learn, collaborate, and grow through hands-on opportunities, creative projects, and 
+          meaningful discussions. We strive to empower all students regardless of background or major to find their 
+          place in the sports industry and develop real-world skills and confidence to pursue their passions.
         </p>
+
+        <a
+          href="https://sop.utoronto.ca/group/utsc-sports-business-association-student-group-sba/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block max-w-full text-center text-sm md:text-base font-semibold underline underline-offset-4 decoration-white/70 hover:decoration-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white break-words"
+        >
+          Visit us on the UofT Student Organization Portal
+        </a>
       </div>
     </section>
   );

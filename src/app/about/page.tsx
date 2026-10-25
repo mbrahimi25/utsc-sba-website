@@ -32,6 +32,14 @@ export default function About() {
         ></ExecutiveCard>
 
         <ExecutiveCard
+          name='Michael Aneke'
+          position='Co-President'
+          image='/execs/default.webp'
+          bio='4th year Management student specializing in Finance. Favourite sport: Soccer. Favourite team: Chelsea FC'
+          linkedin='https://www.linkedin.com/in/michaelaneke/'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
           name='Catalina Bedoya Fuller'
           position='VP of Operations'
           image='/execs/individual/catalina_head.webp'
