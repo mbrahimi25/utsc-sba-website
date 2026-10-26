@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic"
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import { Pattern as HomepageCarousel } from "@/components/examples/homepage_carousel"
 import ArticleEventCard from "@/components/ArticleEventCard";
 import Footer from "@/components/Footer";
 import { articles } from "@/data/articles";
@@ -12,15 +12,6 @@ export default function Home() {
   const latestArticle = articles[0];
   // Takes first element from articles.ts, and treats it as the most recent article
   // In the future, could switch this to taking the article with the most recent publishedAt date
-
-  const HomepageCarousel = dynamic(
-    () => import('@/components/examples/homepage_carousel').then((mod) => mod.Pattern),
-    {
-      // Add a placeholder loading state
-      loading: () => <div className="h-[400px] animate-pulse bg-gray-200" />,
-    }
-  )
-  // Lazy loads the homepage carousel
 
   return (
     <main className="min-h-screen">

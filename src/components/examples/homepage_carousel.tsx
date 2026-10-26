@@ -64,6 +64,7 @@ export function Pattern() {
                     alt={slide.alt}
                     fill
                     className="h-full w-full object-cover"
+                    fetchPriority="high"
                   />
                   
                   {/* Small Textbox / Badge in the Top Corner */}
@@ -109,6 +110,7 @@ export function Pattern() {
                         alt={`Thumb ${slide.alt}`}
                         fill
                         className="h-full w-full object-cover"
+                        fetchPriority="high"
                       />
                     </div>
                   </CarouselItem>
