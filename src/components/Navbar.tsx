@@ -15,7 +15,7 @@ export default function Navbar() {
         {/* Logo and Title */}
         <div className="flex gap-4 md:gap-6 items-center">
           <Image
-            src="/sba_logo.png"
+            src="/sba_logo.webp"
             alt="UTSC Sports Business Association Navbar Logo"
             height={60}
             width={60}

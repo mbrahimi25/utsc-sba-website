@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic"
 import Navbar from "@/components/Navbar";
 import { Pattern as HomepageCarousel } from "@/components/examples/homepage_carousel"
 import ArticleEventCard from "@/components/ArticleEventCard";

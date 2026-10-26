@@ -63,6 +63,7 @@ export function Pattern() {
                     src={slide.src}
                     alt={slide.alt}
                     fill
+                    loading="eager"
                     className="h-full w-full object-cover"
                     fetchPriority="high"
                   />
@@ -109,6 +110,7 @@ export function Pattern() {
                         src={slide.src}
                         alt={`Thumb ${slide.alt}`}
                         fill
+                        loading="eager"
                         className="h-full w-full object-cover"
                         fetchPriority="high"
                       />

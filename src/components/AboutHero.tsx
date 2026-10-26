@@ -6,11 +6,13 @@ export default function AboutHero() {
       {/* Image container: stacks on top for mobile, shifts to left on large screens */}
       <div className="w-full lg:w-1/2 flex justify-center mb-6 lg:mb-0">
         <Image
-          src="/sba_logo_background.png"
+          src="/sba_logo_background.webp"
           alt="Sports Business Association logo"
           width={1200}
           height={600}
           className="w-full h-auto object-contain lg:ml-6"
+          fetchPriority="high"
+          loading="eager"
         />
       </div>
 
