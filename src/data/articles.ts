@@ -12,6 +12,16 @@ export interface Article {
 
 export const articles: Article[] = [
     {
+        title: "Beyond the Court",
+        image: "/articles/valkyries-wnba-finals-2026.webp",
+        description: "How the Golden State Valkyries Are Changing the Business of Women's Sports",
+        author: "Mohamed Brahimi",
+        date: "November 2026",
+        publishedAt: "2026-11-01",
+        link: "/articles/valkyries-wnba-finals-2026",
+    },
+
+    {
         title: "Toronto FC vs. CF Montreal",
         image: "/articles/tfc-mtl-comeback-2026.webp",
         description: "The Drama behind the Late Comeback",

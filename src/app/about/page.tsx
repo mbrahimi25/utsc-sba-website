@@ -83,7 +83,7 @@ export default function About() {
           name='Emma Kajh'
           position='VP of Education'
           image='/execs/individual/emma_head.webp'
-          bio='N/A'
+          bio='3rd year BBA student specializing in Management and International Business.'
           linkedin='https://www.linkedin.com/in/emmakajh/'
         ></ExecutiveCard>
 
