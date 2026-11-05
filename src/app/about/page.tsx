@@ -34,7 +34,7 @@ export default function About() {
         <ExecutiveCard
           name='Michael Aneke'
           position='Co-President'
-          image='/execs/individual/michael_head.webp'
+          image='/execs/default.webp'
           bio='4th year Management student specializing in Finance. Favourite sport: Soccer. Favourite team: Chelsea FC'
           linkedin='https://www.linkedin.com/in/michaelaneke/'
         ></ExecutiveCard>
@@ -101,6 +101,14 @@ export default function About() {
           image='/execs/individual/arden_head.webp'
           bio='4th year Mental Health and Neuroscience student. Favourite sports: Soccer and Hockey. Favourite teams: Liverpool FC and the Ottawa Senators'
           linkedin='https://www.linkedin.com/in/arden-rego/'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Julien Dimitriou'
+          position='Industry and Sponsorship Coordinator'
+          image='/execs/individual/julien_head.webp'
+          bio='2nd year BBA student specializing in Management and International Business. Favourite sport: Jujutsu. Favourite athlete: Ilia Topuria'
+          linkedin='https://www.linkedin.com/in/julien-dimitriou/'
         ></ExecutiveCard>
 
         <ExecutiveCard
