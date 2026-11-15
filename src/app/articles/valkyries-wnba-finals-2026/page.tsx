@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'How their win is changing the business of women\'s sports',
 };
 
-export default function WcQual2026() {
+export default function ValkyriesWnbaFinals2026() {
   return (
     <main className="min-h-screen bg-black text-white">
 

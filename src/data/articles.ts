@@ -3,7 +3,7 @@
 export interface Article {
   title: string;
   image: string;
-  description: string;
+  description?: string;
   author: string;
   date: string; // Format: "Month YYYY"
   publishedAt: string; // Format: "YYYY-MM-DD"
@@ -11,6 +11,16 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+    {
+        title: "AFC Toronto win First-Ever NSL Championship",
+        image: "/articles/afc-toronto-nsl-2026.webp",
+        description: "How their win is changing the business of women\'s sports",
+        author: "Mohamed Brahimi",
+        date: "November 2026",
+        publishedAt: "2026-11-15",
+        link: "/articles/afc-toronto-nsl-2026",
+    },
+
     {
         title: "Beyond the Court",
         image: "/articles/valkyries-wnba-finals-2026.webp",

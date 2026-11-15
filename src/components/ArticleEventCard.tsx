@@ -5,7 +5,7 @@ interface CardProps {
   title: string;
   image: string;
   link: string;
-  description: string;
+  description?: string;
   author?: string;
   date?: string; // Optional: helpful if you want to display an event date or publish date
 }
@@ -50,9 +50,11 @@ export default function ArticleEventCard({ title, image, link, description, auth
         </h2>
 
         {/* 1-2 Sentence Breakdown */}
-        <p className="text-gray-600 text-sm leading-relaxed line-clamp-2">
-          {description}
-        </p>
+        {description && (
+          <p className="text-gray-600 text-sm leading-relaxed line-clamp-2">
+            {description}
+          </p>
+      )}
       </div>
     </Link>
   );

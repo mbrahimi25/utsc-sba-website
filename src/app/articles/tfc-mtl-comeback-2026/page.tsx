@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: 'Toronto\'s Dramatic Late Comeback',
 };
 
-export default function WcQual2026() {
+export default function TfcMtl2026() {
   return (
     <main className="min-h-screen bg-black text-white">
 
