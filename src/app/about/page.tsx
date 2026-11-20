@@ -34,7 +34,7 @@ export default function About() {
         <ExecutiveCard
           name='Michael Aneke'
           position='Co-President'
-          image='/execs/default.webp'
+          image='/execs/individual/michael_head.webp'
           bio='4th year Management student specializing in Finance. Favourite sport: Soccer. Favourite team: Chelsea FC'
           linkedin='https://www.linkedin.com/in/michaelaneke/'
         ></ExecutiveCard>
@@ -64,6 +64,29 @@ export default function About() {
         ></ExecutiveCard>
 
         <ExecutiveCard
+          name='Arden Rego'
+          position='N/A'
+          image='/execs/individual/arden_head.webp'
+          bio='4th year Mental Health and Neuroscience student. Favourite sports: Soccer and Hockey. Favourite teams: Liverpool FC and the Ottawa Senators'
+          linkedin='https://www.linkedin.com/in/arden-rego/'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Alexia Lei'
+          position='Social Media Coordinator'
+          image='/execs/individual/alexia_head1.webp'
+          bio='4th year Social Sciences student. Favourite sport: F1. Favourite teams: Ferrari and McLaren'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
+          name='Jovita Au'
+          position='Graphic Designer'
+          image='/execs/individual/jovita_head.webp'
+          bio='5th year Management and Marketing student. Favourite sport: Hockey'
+          linkedin='linkedin.com/in/jovita-au'
+        ></ExecutiveCard>
+
+        <ExecutiveCard
           name='Ahso Yun'
           position='VP of Outreach'
           image='/execs/individual/ahso_head.webp'
@@ -83,7 +106,7 @@ export default function About() {
           name='Emma Kajh'
           position='VP of Education'
           image='/execs/individual/emma_head.webp'
-          bio='3rd year BBA student specializing in Management and International Business.'
+          bio='3rd year BBA student specializing in Management and International Business. Favourite sport: Soccer'
           linkedin='https://www.linkedin.com/in/emmakajh/'
         ></ExecutiveCard>
 
@@ -93,14 +116,6 @@ export default function About() {
           image='/execs/individual/kyrie_head.webp'
           bio='2nd year Statistics student. Favourite sport: Basketball'
           linkedin='https://www.linkedin.com/in/kyrieouoft/'
-        ></ExecutiveCard>
-
-        <ExecutiveCard
-          name='Arden Rego'
-          position='N/A'
-          image='/execs/individual/arden_head.webp'
-          bio='4th year Mental Health and Neuroscience student. Favourite sports: Soccer and Hockey. Favourite teams: Liverpool FC and the Ottawa Senators'
-          linkedin='https://www.linkedin.com/in/arden-rego/'
         ></ExecutiveCard>
 
         <ExecutiveCard
@@ -120,21 +135,6 @@ export default function About() {
         ></ExecutiveCard>
 
         <ExecutiveCard
-          name='Alexia Lei'
-          position='Social Media Coordinator'
-          image='/execs/individual/alexia_head1.webp'
-          bio='4th year Social Sciences student. Favourite sport: F1. Favourite teams: Ferrari and McLaren'
-        ></ExecutiveCard>
-
-        <ExecutiveCard
-          name='Jovita Au'
-          position='Graphic Designer'
-          image='/execs/individual/jovita_head.webp'
-          bio='5th year Management and Marketing student. Favourite sport: Hockey'
-          linkedin='linkedin.com/in/jovita-au'
-        ></ExecutiveCard>
-
-        <ExecutiveCard
           name='Mohamed Brahimi'
           position='Education & Web Coordinator'
           image='/execs/individual/mohamed_head.webp'
@@ -146,7 +146,7 @@ export default function About() {
           name='Noah Payne'
           position='Research Coordinator'
           image='/execs/individual/noah_head.webp'
-          bio='2nd year Business Administration student.'
+          bio='2nd year Business Administration student. Favourite team: Real Madrid'
           linkedin='https://www.linkedin.com/in/noahpayne07/'
         ></ExecutiveCard>
 
